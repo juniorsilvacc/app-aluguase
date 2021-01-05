@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 export default function Datail() {
  return (
    <View>
-       <Text>DATAIL</Text>
+       <Text>DETAIL</Text>
    </View>
   );
 }

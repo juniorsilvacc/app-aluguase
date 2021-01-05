@@ -16,9 +16,9 @@ export default function App() {
     Montserrat_700Bold
   });
 
-  if(!fontsLoaded){
-    return <AppLoading/>;
-  }
+  // if(!fontsLoaded){
+  //   return <AppLoading/>;
+  // }
 
   return (
     <>
