@@ -80,9 +80,8 @@ const styles = StyleSheet.create({
         borderRadius: 10,
     },
     input:{
-        fontFamily: ' Montserrat_500Medium',
         paddingHorizontal: 10,
-        fontSize: 13,
+        fontSize: 15,
         width: '90%',
     },
     contentNew:{
@@ -92,7 +91,7 @@ const styles = StyleSheet.create({
     },
     title:{
         paddingHorizontal: 15,
-        fontFamily: 'Montserrat_700Bold',
+        fontWeight: '700',
         fontSize: 18,
         color: '#4F4A4A',
     }

@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
         marginVertical: 10,
     },
     title:{
-        fontFamily: 'Montserrat_700Bold',
-        fontSize: 12,
+        fontSize: 14,
+        fontWeight: '700',
         color: '#4F4A4A'
     },
     dot:{
@@ -73,11 +73,11 @@ const styles = StyleSheet.create({
     },
     badge:{
         color: 'red',
-        fontFamily: 'Montserrat_700Bold',
-        fontSize: 9,
+        fontWeight: '700',
+        fontSize: 10,
     },
     description:{
-        fontFamily: 'Montserrat_500Medium',
+        fontWeight: '500',
         fontSize: 10,
         color: '#4F4A4A'
     },
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
         width: '100%'
     },
     price:{
-        fontFamily: 'Montserrat_700Bold',
+        fontWeight: '700',
         fontSize: 15,
     }
 })

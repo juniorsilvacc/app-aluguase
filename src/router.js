@@ -19,7 +19,7 @@ function Routes(){
                 options={{
                     title:'ALUGUE',
                     headerTitleStyle:{
-                        fontFamily: 'Montserrat_700Bold'
+                        fontWeight: '600'
                     },
                     headerRight: () => (
                         <TouchableOpacity style={{marginRight: 15}}>
@@ -39,7 +39,7 @@ function Routes(){
                 options={{
                     title:'Detalhe',
                     headerTitleStyle:{
-                        fontFamily: 'Montserrat_700Bold'
+                        fontWeight: '600'
                     },
                     headerRight: () => (
                         <TouchableOpacity style={{marginRight: 15}}>
