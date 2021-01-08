@@ -34,14 +34,14 @@ export default function Home() {
 
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{paddingHorizontal: 15, }}>
             <New 
-                cover={require('../assets/house1.jpg')}
+                cover={require('../assets/house2.jpg')}
                 name="Casa de Praia"
                 description="Casa nova uma quadra do mar, lugar seguro e monitorado 24horas."
                 onPress={() => navigation.navigate('detail')}
             />
 
             <New 
-                cover={require('../assets/house2.jpg')}
+                cover={require('../assets/house1.jpg')}
                 name="Casa de Praia"
                 description="Casa nova uma quadra do mar, lugar seguro e monitorado 24horas."
                 onPress={() => {}}
@@ -65,19 +65,35 @@ export default function Home() {
             cover={require('../assets/house4.jpg')}
             />
             <House 
-            cover={require('../assets/house5.jpg')}
+            cover={require('../assets/house6.jpg')}
             />
             <House 
-            cover={require('../assets/house6.jpg')}
+            cover={require('../assets/house5.jpg')}
             />
         </ScrollView>
 
         <Text style={[styles.title, {marginTop: 20}]}>
-            Dica do dia
+            Dicas do dia
         </Text>
 
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{paddingHorizontal: 15, }}>
-            {/* <Recommend/> */}
+            <Recommend
+            cover={require('../assets/house3.jpg')}
+            house="Casa Floripa"
+            off="20%"
+            />
+
+            <Recommend
+            cover={require('../assets/house5.jpg')}
+            house="Casa São Paulo"
+            off="15%"
+            />
+
+            <Recommend
+            cover={require('../assets/house4.jpg')}
+            house="Casa Rio de Janeiro"
+            off="10%"
+            />
         </ScrollView>
 
 
